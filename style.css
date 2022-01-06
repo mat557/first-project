@@ -114,3 +114,186 @@
 .photo img{
     height:450px;
 }
+
+/* end of section 1*/
+
+/*starting of section2 */
+
+.div-2{
+    width:100%;
+    height: 100vh;
+    background-color: #efefef;
+}
+
+.div-2-head{
+    padding:70px 0;
+    text-align: center;
+}
+
+.div-2-head h3{
+    font-size: 25px;
+    color:purple;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-2-head h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-2-head h1 span{
+    color: purple;
+    font-style: italic;
+}
+
+.all-div{
+    display: flex;
+    width:90%;
+    margin:auto;
+}
+
+.div-21{
+    width:30%;
+    padding:15px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 30px purple;
+}
+
+.div-21 p{
+    align-items: center;
+}
+
+.div-21 img{
+    height:100px;
+}
+
+
+/* end of second div */
+
+/* starting of thied div */
+
+.div-3{
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.div-3 img{
+    height: 350px;
+    border-radius: 7px;
+}
+
+.image-des{
+    margin-left:40px;
+    padding-top: 100px;
+}
+
+.image-des h1{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.image-des p{
+    padding-left: 20px;
+}
+
+.div{
+    height:100px;
+    width: 100px;
+    background-color: rgb(243, 34, 243);
+    z-index: -1;
+    border-radius: 100%;
+    margin-left:500px;
+}
+
+.last-part{
+    background-color: #efefef;
+    width: 100%;
+    height:70vh;
+}
+
+.last-img{
+    width:40%;
+    margin: auto;
+    position: relative;
+}
+
+.last-img img{
+    width:100%;
+    border-radius: 7px;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius: 7px;
+    background: rgb(247, 19, 247);
+    margin-bottom: 25px;
+    opacity: 0;
+    position: absolute;
+    transition: 1s;
+}
+
+.last-img:hover .overlay{
+    opacity: .7;
+}
+
+.part-desc{
+    width:80%;
+    position: absolute;
+    bottom:40%;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.part-desc h3{
+    padding-left: 25%;
+    color:white;
+}
+
+hr{
+    background: white;
+    height:2px;
+    border:0;
+    margin:15px auto;
+    width:60%;
+}
+
+.part-desc p{
+    align-items: center;
+    font-size: 14px;
+    color:white;
+}
+
+.last-img:hover .part-desc{
+    opacity: 1;
+}
+
+.last-div{
+    height:20vh;
+    width:100%;
+    background: black;
+    margin-top:160px;
+}
+
+.last-div h1{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+}
+.last-div span{
+    font-style: italic;
+    color: purple;
+}
+
+.last-div p{
+    text-align: center;
+    padding: 10px;
+    color:white;
+}

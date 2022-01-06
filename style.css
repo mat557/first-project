@@ -230,7 +230,7 @@
     top:0;
     left:0;
     border-radius: 7px;
-    background: rgb(247, 19, 247);
+    background: rgb(0, 238, 255);
     margin-bottom: 25px;
     opacity: 0;
     position: absolute;
@@ -286,14 +286,16 @@ hr{
     color:white;
     text-align: center;
     padding-top:20px;
+    font-size: 30px;
 }
 .last-div span{
-    font-style: italic;
     color: purple;
 }
 
 .last-div p{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     padding: 10px;
     color:white;
+    font-size: 15px;
 }
